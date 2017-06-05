@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>resume.html</title>
+</head>
+<style>
+       body{
+        background-color: white;
+        color: black;
+        text-align: center;
+		   height:auto;
+		   overflow: auto;
+    }
+    
+    h1{
+        color: black;
+            font-size: 48px;
+            font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    p{
+        color: black;
+        font-family: 'Poiret One', cursive;
+    }
+    
+    nav {
+        color:black;
+        text-align: right;
+        font-family: 'Poiret One', cursive;
+        font-size: 20px
+    }
+    
+    img {
+        margin: 10px;
+        align-content: center
+        
+    }
+		nav li {
+		display: inline;
+		float: right;
+		font-family: 'Istok Web', sans-serif;
+	}
+	
+	nav ul {
+		background-color: #333;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	
+	nav li a {
+		display: block;
+		color: white;
+		test-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	nav li a:hover {
+		background-color: #111;
+	}
+	
+	.active {
+		background-color: #A256AC;
+	}
+	
+    div {
+		align-content: center;
+		width: 70%;
+	}
+	</style>
+<body>
+<nav>
+<ul>   
+<li><a class="active" href="resume.html">Resume</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a  href="shop.html">Shop</a></li> 
+	<li><a href="gallery.html">Gallery</a></li> 
+	<li><a href="about.html">About</a></li>
+	<li><a  href="index.html">Home</a></li> 
+	</ul>
+</nav>
+
+<iframe src="curriculum andrea sucre.pdf" width="1000" height="1000" frameborder="2" scrolling:"no" ></iframe>
+
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+
+</body>
+</html>
